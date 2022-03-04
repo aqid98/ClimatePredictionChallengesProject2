@@ -1,1 +1,56 @@
-# ClimatePredictionChallengesProject2
+# 2022Spring-Project2-STAT5242
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+
+# Climate Prediction Challenges
+        
+## **Physics-Guided Deep Learning Lake Thermal Stratification Modelling**
+
+<span style="color:red">Mohammed Aqid Khatkhatay, Tianxiao Shen, Ziwen Ye  (Group 6)
+     
+The goal of this project is to perform Lake Thermal Stratification Modelling and to explore the physics-guided deep learning models proposed in Read et al (2019) and Jia et al (2019).
+     
+ 
+
+Source: 
+## Code Run Instructions
+Install the necessary requirements by running the following command.
+
+~~~python
+
+    
+~~~
+
+next run the code to upload the dataset.  
+~~~python
+%%capture
+
+~~~
+
+    
+## Organisation of this directory 
+
+```
+proj/
+├── lib/
+├── data/
+├── doc/
+├── figs/
+├── images/        
+└── output/
+        
+```
+    
+## Data Description
+        
++ 
++ 
+        
+## Collab Link
+
+
+    
+    
+    
+    
+**Contribution statement:** All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement.    
