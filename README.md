@@ -8,7 +8,7 @@
 
 <span style="color:red">Mohammed Aqid Khatkhatay, Tianxiao Shen, Ziwen Ye  (Group 6)
      
-The goal of this project is to perform Lake Thermal Stratification Modelling and to explore the physics-guided deep learning models proposed in Read et al (2019) and Jia et al (2019).
+The goal of this project is to perform Lake Thermal Stratification Modelling and to explore the physics-guided deep learning models proposed in Read et al (2019) and Jia et al (2019). We shall also porpose our own models to see the performance.
      
  
 
