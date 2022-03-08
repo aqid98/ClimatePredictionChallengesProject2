@@ -29,11 +29,7 @@ Install the necessary requirements by running the following command.
 !wget https://raw.githubusercontent.com/aqid98/ClimatePredictionChallengesProject2/main/architectures/LSTM.py -P "/content/models"
 ~~~
 
-next run the code to upload the dataset.  
-~~~python
-%%capture
 
-~~~
 
     
 ## Organisation of this directory 
