@@ -18,7 +18,15 @@ Install the necessary requirements by running the following command.
 
 ~~~python
 
-    
+!pip install sciencebasepy
+!mkdir models
+!mkdir models/Data
+!mkdir Output
+!wget https://raw.githubusercontent.com/aqid98/ClimatePredictionChallengesProject2/main/codes/dataset.py
+!wget https://raw.githubusercontent.com/aqid98/ClimatePredictionChallengesProject2/main/codes/loss.py
+!wget https://raw.githubusercontent.com/aqid98/ClimatePredictionChallengesProject2/main/codes/trainer.py
+!wget https://raw.githubusercontent.com/aqid98/ClimatePredictionChallengesProject2/main/codes/utils.py
+!wget https://raw.githubusercontent.com/aqid98/ClimatePredictionChallengesProject2/main/architectures/LSTM.py -P "/content/models"
 ~~~
 
 next run the code to upload the dataset.  
