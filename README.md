@@ -35,14 +35,7 @@ Install the necessary requirements by running the following command.
 ## Organisation of this directory 
 
 ```
-proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-├── images/        
-└── output/
-        
+We use two notebooks one for running the models and one for running the visualizations. All other helper and utility functions can be found in the drive.
 ```
     
 ## Data Description
