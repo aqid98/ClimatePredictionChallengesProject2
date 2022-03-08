@@ -58,20 +58,32 @@ The data are organized into these items:
 + Model configurations - Model parameters and metadata used to configure models (1 JSON file, with metadata for each of 68 lakes, indexed by "site_id")
 + Model inputs - Data formatted as model inputs for predicting temperature
 > a. Lake Mendota model inputs - Tables with 1 row per timestep for weather data and ice flags (2 comma-delimited files)
+        
 > b. Sparkling Lake model inputs - Tables with 1 row per timestep for weather data and ice flags (2 comma-delimited files)
+        
 > c. Historical model inputs for 68 lakes - Tables with 1 row per timestep for weather data and ice flags, with two files for each lake (138 comma-delimited files, compressed into 2 zip files)
+        
 + Training data - Data used to train or calibrate predictive models
-> a. Lake Mendota training data - Tables with 1 row per date and depth, with the corresponding observed water temperature (3 comma-delimited files)
+> a. Lake Mendota training data - Tables with 1 row per date and depth, with the corresponding observed water temperature (3 comma-delimited files) 
+        
 > b. Sparkling Lake training data - Tables with 1 row per date and depth, with the corresponding observed water temperature (3 comma-delimited files)
+        
 > c. Historical training data for 68 lakes - Tables with 1 row per date, depth, and site_id, with the corresponding observed water temperature (1 comma-delimited file)
+        
 + Prediction data - Predictions from PGDL, DL, and PB models
 > a. Lake Mendota predictions - Tables with 1 row per date, a column for predicted temperature at each depth, and experiment metadata (10 comma-delimited files)
+        
 > b. Sparkling Lake predictions - Tables with 1 row per date, a column for predicted temperature at each depth, and experiment metadata (10 comma-delimited files)
+        
 > c. Historical predictions for 68 lakes - Tables with 1 row per date and depth, with the corresponding observed water temperature (4 comma-delimited files for each lake compressed into 68 zip files)
+        
 + Model evaluation - test data and overall assessment of model performance
 > a. Lake Mendota evaluation - Tables with 1 row per date, a column for predicted temperature at each depth, and experiment metadata (3 comma-delimited files)
+        
 > b. Sparkling Lake evaluation - Tables with 1 row per date, a column for predicted temperature at each depth, and experiment metadata (2 comma-delimited files)
+        
 > c. Historical evaluation for 68 lakes - Tables with 1 row per date and depth, with the corresponding observed water temperature (4 comma-delimited files for each lake compressed into 68 zip files)
+        
         
 
 
